@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT. CITRA AQILA PROTEKSI</title>
+
+  <link rel="icon" type="png" href="assets-landing/favicon-32x32.png">
+  <link rel="shortcut icon" type="x-icon" href="assets-landing/favicon.ico">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <!-- Swiper CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =========================== NAVBAR =========================== -->
+  <header class="navbar">
+    <div class="navbar-left">
+      <div class="logo-box">
+        <img src="assets-landing/CITRA-AQILA-removebg-preview.png" alt="CAP Logo" />
+      </div>
+    </div>
+
+    <div class="navbar-content">
+      <nav class="navbar-center" id="navbarMenu">
+        <ul>
+          <li><a href="#home" class="active">Beranda</a></li>
+
+          <!-- Tentang Kami -->
+          <li class="dropdown">
+            <a href="#tentang">Tentang Kami </a>
+            <ul class="dropdown-content">
+              <li><a href="tentang-kami/sejarah-kami/index.html">Sejarah Singkat</a></li>
+              <li><a href="tentang-kami/visi-misi-strategi/index.html">Visi, Misi & Strategi</a></li>
+              <li><a href="tentang-kami/manajemen/index.html">Manajemen</a></li>
+            </ul>
+          </li>
+
+          <!-- Bisnis Perusahaan -->
+          <li class="dropdown">
+            <a href="#bisnis">Bisnis Perusahaan </a>
+            <ul class="dropdown-content">
+              <li><a href="#produk">Lingkup Produk</a></li>
+              <li><a href="#jasa">Lingkup Jasa</a></li>
+              <li><a href="#katalog">Katalog Produk</a></li>
+            </ul>
+          </li>
+
+          <!-- Publikasi -->
+          <li class="dropdown">
+            <a href="#publikasi">Publikasi </a>
+            <ul class="dropdown-content">
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#sertifikasi">Sertifikasi</a></li>
+              <li><a href="#referensi">Referensi</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="navbar-right">
+          <div class="language-switcher">
+            <button class="lang-btn active" data-lang="id">ID</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+          </div>
+        <div class="call-box">
+          <i class="fa-solid fa-phone"></i>
+          <div class="call-text">
+            <strong>+62 (061) 6871177</strong><br />
+            <span>Call Center CAP</span>
+          </div>
+        </div>
+        <a href="#kontak" class="btn-hubungi">Hubungi Kami</a>
+      </div>
+  </header>
+
+  <!-- Hero Slider -->
+  <section class="hero-slider">
+    <div class="slides fade">
+      <img src="assets-landing/ryan-klaus-GdUw1owQqWE-unsplash.jpg" alt="Fire Protection" />
+      <div class="caption">
+        <h1>Solusi Profesional Fire Protection</h1>
+        <p>Memberikan perlindungan menyeluruh terhadap risiko kebakaran dengan sistem terbaik.</p>
+        <a href="#" class="btn">Baca Selengkapnya</a>
+      </div>
+    </div>
+
+    <div class="slides fade">
+      <img src="assets-landing/gantavya-bhatt-mmcSaJrRuCM-unsplash.jpg" alt="Security System" />
+      <div class="caption">
+        <h1>Keamanan Terintegrasi dan Modern</h1>
+        <p>Sistem keamanan canggih untuk perlindungan maksimal di lingkungan kerja Anda.</p>
+        <a href="#" class="btn">Baca Selengkapnya</a>
+      </div>
+    </div>
+
+    <div class="slides fade">
+      <img src="assets-landing/squids-z-AoUcnkKx9Lc-unsplash.jpg" alt="Fire Service" />
+      <div class="caption">
+        <h1>Pelayanan Fire Service Profesional</h1>
+        <p>Kami siap mendukung kebutuhan inspeksi dan maintenance sistem proteksi Anda.</p>
+        <a href="#" class="btn">Baca Selengkapnya</a>
+      </div>
+    </div>
+
+    <!-- Tombol Navigasi -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section class="tentang" id="tentang">
+    <div class="container tentang-container">
+      <div class="tentang-img">
+        <img src="assets-landing/christoph-nolte-LDhzr9uftmE-unsplash.jpg" alt="Tentang Kami" />
+        <div class="pengalaman-box">
+          <h2>10+</h2>
+          <p>Tahun Pengalaman</p>
+        </div>
+      </div>
+      <div class="tentang-text">
+        <h5>PT. CITRA AQILA PROTEKSI</h5>
+        <h2>Tentang Kami</h2>
+        <p>
+          PT. Citra Aqila Proteksi merupakan perusahaan yang bergerak di bidang
+          <strong>Fire Protection, Security System</strong>, dan <strong>Fire Service</strong>.
+          Berdiri dengan komitmen memberikan layanan terbaik untuk perlindungan keselamatan kerja,
+          keamanan lingkungan, serta perawatan sistem proteksi kebakaran yang profesional dan terpercaya.
+        </p>
+        <ul class="menu-tentang">
+            <li><a href="#">Sejarah Kami</a></li>
+            <li><a href="#">Visi, Misi & Strategi</a></li>
+            <li><a href="#">Manajemen</a></li>
+         </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Layanan Kami -->
+  <section class="layanan" id="layanan">
+    <div class="container">
+      <h5>PT. CITRA AQILA PROTEKSI</h5>
+      <h2>Layanan yang Kami Tawarkan Untuk Mitra Anda</h2>
+
+      <div class="layanan-grid">
+        <div class="layanan-card">
+          <img src="https://img.icons8.com/ios-filled/100/fire-extinguisher.png" alt="Fire Protection" />
+          <h3>Fire Protection</h3>
+          <p>Penyediaan, instalasi, dan perawatan sistem proteksi kebakaran seperti hydrant, sprinkler, dan APAR.</p>
+        </div>
+
+        <div class="layanan-card">
+          <img src="https://img.icons8.com/ios-filled/100/bullet-camera.png" alt="Security System" />
+          <h3>Security System</h3>
+          <p>Solusi sistem keamanan terpadu mulai dari CCTV, alarm, hingga kontrol akses untuk menjaga aset perusahaan Anda.</p>
+        </div>
+
+        <div class="layanan-card">
+          <img src="https://img.icons8.com/ios-filled/100/maintenance.png" alt="Fire Service" />
+          <h3>Fire Service</h3>
+          <p>Layanan inspeksi dan servis rutin untuk memastikan sistem proteksi kebakaran berfungsi optimal setiap saat.</p>
+        </div>
+
+        <div class="layanan-card">
+          <img src="https://img.icons8.com/ios-filled/100/training.png" alt="Pelatihan & Konsultasi" />
+          <h3>Pelatihan & Konsultasi</h3>
+          <p>Program pelatihan keselamatan kerja, penanggulangan kebakaran, serta konsultasi sistem proteksi kebakaran profesional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kenapa Memilih Kami -->
+  <section class="kenapa" id="kenapa">
+    <div class="kenapa-container">
+      <div class="kenapa-left">
+        <img src="assets-landing/katie-mukhina-2dThV7WbNXo-unsplash.jpg" alt="Citra Aqila Proteksi" />
+      </div>
+      <div class="kenapa-right">
+        <h5>PT. CITRA AQILA PROTEKSI</h5>
+        <h2>Kenapa Memilih Kami?</h2>
+        <p>Solusi lengkap dan terpercaya di bidang Fire Protection, Security System, dan Fire Service.</p>
+
+        <div class="kenapa-grid">
+          <div class="kenapa-item">
+            <img src="https://img.icons8.com/ios-filled/64/ff0000/handshake.png" alt="Pengalaman">
+            <h3>Berpengalaman & Profesional</h3>
+            <p>Kami telah dipercaya oleh berbagai perusahaan besar dalam pemasangan dan perawatan sistem proteksi kebakaran serta keamanan.</p>
+          </div>
+
+          <div class="kenapa-item">
+            <img src="https://img.icons8.com/ios-filled/64/ff0000/checked--v1.png" alt="Kualitas" />
+            <h3>Kualitas Terjamin</h3>
+            <p>Seluruh produk dan layanan kami memenuhi standar nasional dan internasional untuk keamanan maksimal.</p>
+          </div>
+
+          <div class="kenapa-item">
+            <img src="https://img.icons8.com/ios-filled/64/ff0000/customer-support.png" alt="Layanan Cepat" />
+            <h3>Layanan Cepat & Responsif</h3>
+            <p>Tim teknisi kami siap melayani Anda dengan cepat dan profesional kapan pun dibutuhkan.</p>
+          </div>
+
+          <div class="kenapa-item">
+            <img src="https://img.icons8.com/ios-filled/64/ff0000/technical-support.png" alt="Konsultasi" />
+            <h3>Konsultasi & Dukungan Teknis</h3>
+            <p>Kami memberikan dukungan penuh mulai dari perencanaan, instalasi, hingga pemeliharaan sistem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistik Perusahaan -->
+  <section class="stats">
+    <div class="stats-container">
+      <div class="stat-item">
+        <i class="fas fa-fire-extinguisher"></i>
+        <h3>200+</h3>
+        <p>Proyek Proteksi Kebakaran</p>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-user-shield"></i>
+        <h3>150+</h3>
+        <p>Klien & Mitra Industri</p>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-calendar-check"></i>
+        <h3>10+</h3>
+        <p>Tahun Pengalaman</p>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-users-cog"></i>
+        <h3>100+</h3>
+        <p>Tenaga Ahli & Teknisi</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak Kami -->
+  <section class="kontak" id="kontak">
+    <div class="kontak-container">
+      <div class="kontak-left">
+        <h5>PT. CITRA AQILA PROTEKSI</h5>
+        <h2>Kontak Kami</h2>
+          <form action="https://formspree.io/f/xrbowrqp" method="POST" class="kontak-form">
+            <div class="form-group">
+              <input type="text" name="nama" placeholder="Nama Anda" required />
+              <input type="text" name="kontak" placeholder="Telepon atau Email Anda" required />
+            </div>
+            <input type="text" name="subjek" placeholder="Subjek Pesan Anda" required />
+            <textarea name="pesan" placeholder="Pesan Anda kepada kami" rows="5" required></textarea>
+            <button type="submit" class="btn-send">Kirim Pesan</button>
+          </form>
+      </div>
+
+      <div class="kontak-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.400637033831!2d98.63376947492106!3d3.593762127218476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312f238b413061%3A0x2a82f0c7bb0b43c!2sPT.%20Citra%20Aqila%20Proteksi%20-%20Distributor%20Apar%20dan%20Refill%20Medan!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+<!-- =========================== BERITA TERKINI =========================== -->
+  <section class="berita">
+    <div class="berita-container">
+      <h5>PT. CITRA AQILA PROTEKSI</h5>
+      <h2>Berita Terkini</h2>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide berita-card">
+            <img src="assets-landing/simon-berger-4b8enBtVIfM-unsplash.jpg" alt="Berita 1" />
+            <div class="berita-info">
+              <p class="tanggal"><i class="fa-solid fa-calendar-days"></i> 10 Okt 2025</p>
+              <h3>PT Citra Aqila Proteksi Selesaikan Proyek Proteksi Gedung Pemerintah</h3>
+              <a href="#" class="btn-berita">Selengkapnya</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide berita-card">
+            <img src="assets-landing/greg-kubrak-3c_P1dONcCE-unsplash.jpg" alt="Berita 2" />
+            <div class="berita-info">
+              <p class="tanggal"><i class="fa-solid fa-calendar-days"></i> 20 Sep 2025</p>
+              <h3>Kunjungan Kerja ke PT XYZ untuk Kolaborasi Sistem Keamanan</h3>
+              <a href="#" class="btn-berita">Selengkapnya</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide berita-card">
+            <img src="assets-landing/squids-z-AoUcnkKx9Lc-unsplash.jpg" alt="Berita 3" />
+            <div class="berita-info">
+              <p class="tanggal"><i class="fa-solid fa-calendar-days"></i> 15 Agu 2025</p>
+              <h3>Pelatihan Fire Protection System untuk Tim Teknis</h3>
+              <a href="#" class="btn-berita">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigasi Swiper -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+<!-- News Letter -->
+<section class="newsletter">
+    <div class="newsletter-container">
+        <div class="newsletter-left">
+            <i class="fa fa-envelope"></i>
+            <div>
+                <h3>Isikan E-Mail Anda</h3>
+                <p>Untuk mengetahui tentang PT. Citra Aqila Proteksi lebih jauh</p>
+            </div>
+        </div>
+
+        <div class="newsletter-right">
+            <form id="newsletterForm">
+                <input type="email" id="emailInput" placeholder="Alamat e-mail Anda" required>
+                <button type="submit">Daftar</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="about">
+        <img src="assets-landing/CITRA-AQILA-removebg-preview.png" alt="Logo PT CITRA AQILA PROTEKSI" />
+        <p>Badan usaha profesional di bidang Fire Protection, Security System, Fire Service.</p>
+      </div>
+
+      <div class="links">
+        <h4>Tentang Kami</h4>
+        <a href="#">Sejarah</a>
+        <a href="#">Visi & Misi</a>
+        <a href="#">Manajemen</a>
+      </div>
+
+      <div class="contact">
+        <h4>Info Kontak</h4>
+        <p><i class="fa fa-phone"></i> +62 (061) 6871177</p>
+        <p><i class="fa fa-envelope"></i> info@citraaqila.co.id</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <button id="newMail">📧 New Mail</button>
+      <button id="whistleBtn">🚨 Whistle Blowing System</button>
+      <p>© <span id="year"></span> PT CITRA AQILA PROTEKSI. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
